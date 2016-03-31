@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5061B911CAA82C3005C66CB /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5061B901CAA82C3005C66CB /* NSObject+Extension.m */; };
 		C52FF50B1CA65BBF004E334A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FF50A1CA65BBF004E334A /* main.m */; };
 		C52FF50E1CA65BBF004E334A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FF50D1CA65BBF004E334A /* AppDelegate.m */; };
 		C52FF5111CA65BBF004E334A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FF5101CA65BBF004E334A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5061B8F1CAA82C3005C66CB /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		C5061B901CAA82C3005C66CB /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 		C52FF5061CA65BBF004E334A /* PJXExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJXExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52FF50A1CA65BBF004E334A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C52FF50C1CA65BBF004E334A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				C52FF5171CA65BBF004E334A /* LaunchScreen.storyboard */,
 				C52FF51A1CA65BBF004E334A /* Info.plist */,
 				C52FF5091CA65BBF004E334A /* Supporting Files */,
+				C5061B8F1CAA82C3005C66CB /* NSObject+Extension.h */,
+				C5061B901CAA82C3005C66CB /* NSObject+Extension.m */,
 			);
 			path = PJXExtension;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				C52FF5111CA65BBF004E334A /* ViewController.m in Sources */,
 				C52FF50E1CA65BBF004E334A /* AppDelegate.m in Sources */,
 				C52FF50B1CA65BBF004E334A /* main.m in Sources */,
+				C5061B911CAA82C3005C66CB /* NSObject+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				C52FF5351CA65BC0004E334A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52FF5361CA65BC0004E334A /* Build configuration list for PBXNativeTarget "PJXExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				C52FF5381CA65BC0004E334A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52FF5391CA65BC0004E334A /* Build configuration list for PBXNativeTarget "PJXExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				C52FF53B1CA65BC0004E334A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

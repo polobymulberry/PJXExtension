@@ -7,6 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+Extension.h"
+
+#pragma mark - PJXUser
+@interface PJXUser : NSObject
+
+@property (nonatomic, copy) NSString* username; // 用户名
+@property (nonatomic, copy) NSString* password; // 密码
+@property (nonatomic, copy) NSString* avatarImageURL; // 头像的URL地址
+
+@end
+
+@implementation PJXUser
+
+@end
 
 @interface ViewController ()
 
@@ -16,12 +30,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // simple sample
+    [self runSimpleSample];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Simple Sample
+- (void)runSimpleSample
+{
+    NSDictionary *userDict = @{@"username"      :@"shuaige",
+                               @"password"      :@"123456",
+                               @"avatarImageURL":@"http://www.example.com/shuaige.png"};
+    
+    PJXUser *user = [[PJXUser alloc] initWithAttributes:userDict];
+    
+    NSLog(@"username:%@\n",user.username);
+    NSLog(@"password:%@\n",user.password);
+    NSLog(@"avatarImageURL:%@\n",user.avatarImageURL);
 }
 
 @end
