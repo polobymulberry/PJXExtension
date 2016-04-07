@@ -16,6 +16,7 @@
 		C52FF5191CA65BBF004E334A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52FF5171CA65BBF004E334A /* LaunchScreen.storyboard */; };
 		C52FF5241CA65BC0004E334A /* PJXExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FF5231CA65BC0004E334A /* PJXExtensionTests.m */; };
 		C52FF52F1CA65BC0004E334A /* PJXExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52FF52E1CA65BC0004E334A /* PJXExtensionUITests.m */; };
+		C5DA0DD21CB27A9B00067F84 /* UserInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = C5DA0DD11CB27A9B00067F84 /* UserInfo.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C52FF52A1CA65BC0004E334A /* PJXExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJXExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52FF52E1CA65BC0004E334A /* PJXExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJXExtensionUITests.m; sourceTree = "<group>"; };
 		C52FF5301CA65BC0004E334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DA0DD11CB27A9B00067F84 /* UserInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserInfo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				C52FF5091CA65BBF004E334A /* Supporting Files */,
 				C5061B8F1CAA82C3005C66CB /* NSObject+Extension.h */,
 				C5061B901CAA82C3005C66CB /* NSObject+Extension.m */,
+				C5DA0DD11CB27A9B00067F84 /* UserInfo.txt */,
 			);
 			path = PJXExtension;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52FF5191CA65BBF004E334A /* LaunchScreen.storyboard in Resources */,
+				C5DA0DD21CB27A9B00067F84 /* UserInfo.txt in Resources */,
 				C52FF5161CA65BBF004E334A /* Assets.xcassets in Resources */,
 				C52FF5141CA65BBF004E334A /* Main.storyboard in Resources */,
 			);
